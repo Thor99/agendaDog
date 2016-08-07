@@ -34,8 +34,8 @@ O projeto possui quatro comandos:
 
 ## Como compilar:
 
-```gcc -o main main.cpp agenda.cpp -std=c++11```
+> gcc -o main main.cpp agenda.cpp -std=c++11
 
 ## Como executar:
 
-```./main```
+> ./main
