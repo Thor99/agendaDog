@@ -6,16 +6,16 @@
 
 using namespace std;
 
-class Agenda
-{
-public:
-	Agenda() = default;
-	void AddContact(string nome, string email, string telefone);
-	void RemoveContact(string nome);
-	pair<string, string> GetContact(string nome) const;
-	void PrintContacts() const;
+class Agenda {
+	public:
+		Agenda() = default;
+		void AddContact(string nome, string email, string telefone);
+		void RemoveContact(string nome);
+		pair<string, string> GetContact(string nome) const;
+		void PrintContacts() const;
 
-private:
-	map<string, pair<string, string> > m_agenda; // (nome, (email, telefone))
+	private:
+		map<string, pair<string, string> > m_agenda; // (nome, (email, telefone))
 };
+
 #endif
